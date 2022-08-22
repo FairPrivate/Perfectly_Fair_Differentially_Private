@@ -14,6 +14,8 @@ P01 = pd.read_csv('P01_a1.csv') # \Pr[R=\rho|A='White', Y=1]
 P11 = pd.read_csv('P11_b1.csv') # \Pr[R=\rho|A='Black', Y=1]
 P10 = pd.read_csv('P10_b0.csv') # \Pr[R=\rho|A='Black', Y=0]
 
+# Assume $A=0$ is equal to $A='White' and $A=1$ is equal to $A='Black'$
+
 a = [P00, P01, P10, P11]
 for each in a:
     each = each.drop('Unnamed: 0', axis=1, inplace=True)
