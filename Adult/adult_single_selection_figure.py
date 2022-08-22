@@ -92,5 +92,5 @@ plt.plot(epsilons, theta, color='lightgray')
 _ = plt.plot( xp, p(xp), '-', color='darkred')
 plt.grid()
 plt.show()
-#print ('hi')
+
 
