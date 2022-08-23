@@ -16,10 +16,10 @@ Since the two experimet settings are similar we explain each file in these two e
 - In "generate_sample.py" generates 100K samples and save samples in "checking_{wb\wha}_generated_samples_corrected.csv".
 
 
-- In "{wb\wha}_debiased_multiple_selection.py", we applied oblivious_selection_procedure (similar $\epsilon$ applied on both groups) on debiased scores. The debiased model trained on the "checking_{wb\wha}_generated_samples_corrected.csv" using the adversarial debiasing method. We adopted the AdversarialDebiasing from [FairAI360](https://github.com/Trusted-AI/AIF360) Github repository and replaced the "adversarial_debiasing.py" file with ours which is available in ["adversarial_debiasing.py"](https://github.com/FairPrivate/Perfectly_Fair_Differentially_Private/blob/main/adversarial_debiasing.py). 
+- In "{wb\wha}_debiased_multiple_selection.py", we applied oblivious_selection_procedure (similar $\\epsilon$ applied on both groups) on debiased scores. The debiased model trained on the "checking_{wb\wha}_generated_samples_corrected.csv" using the adversarial debiasing method. We adopted the AdversarialDebiasing from [FairAI360](https://github.com/Trusted-AI/AIF360) Github repository and replaced the "adversarial_debiasing.py" file with ours which is available in ["adversarial_debiasing.py"](https://github.com/FairPrivate/Perfectly_Fair_Differentially_Private/blob/main/adversarial_debiasing.py). 
 In the selection procedure we selected different number of applicants $m=\\{1, 2, 3, 4\\}$ from an applicant pool of $n=10$ people.
 
-- In "{wb\wha}_noisy_selection.py", we applied the proposed selection procedures to select one applicant from applicants pool of 10 people for 10,000 times over different values of epsilon ranging $\epsilon\in[0,20]$
+- In "{wb\wha}_noisy_selection.py", we applied the proposed selection procedures to select one applicant from applicants pool of 10 people for 10,000 times over different values of epsilon ranging $\\epsilon \\in[0,20]$
 
 - In "{wb\wha}_noisy_multiple_selection.py", we applied the proposed selection procedures to select $m\in\\{1, 2, 3, 4\\}$ applicant from applicants pool of 10 people for 10,000 times over different values of epsilon ranging $\epsilon\in[0,20]$
 
