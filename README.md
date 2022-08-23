@@ -4,7 +4,7 @@ The proposed selection procedures applied on two different datasets
 
 ## FICO Credit Scores
 
-We investigated our proposed methods on these two different experiment settings on FICO credit score dataset
+We investigated our proposed methods on the following two different experiment settings on FICO credit score dataset
 
 ### 1 ) White vs. Black
 ### 2 ) White + Hispanic vs. Asian
